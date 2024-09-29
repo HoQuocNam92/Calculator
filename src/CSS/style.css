@@ -1,0 +1,52 @@
+.container_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cms.imgworlds.com/assets/9558de9d-1e49-437e-aa7b-b8bd4d999b00.jpg?key=home-gallery");
+    background-size: cover;
+}
+.container {
+    width: 400px;
+    height: 450px;
+    background-color: aqua;
+}
+.container #resuult_box {
+    font-size: 40px;
+}
+.container #result {
+    text-align: center;
+}
+.container #result input {
+    margin-top: 20px;
+    width: 385px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid aqua;
+}
+.key_board {
+    text-align: center;
+}
+.key_board input {
+    margin: 5px;
+}
+.row_one input {
+    width: 70px;
+    height: 70px;
+}
+.row_two input {
+    width: 70px;
+    height: 70px;
+}
+
+.row_three input {
+    width: 70px;
+    height: 70px;
+}
+
+.row_four input {
+    width: 70px;
+    height: 70px;
+}
