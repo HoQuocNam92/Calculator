@@ -50,3 +50,45 @@
     width: 70px;
     height: 70px;
 }
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .container {
+        width: 350px;
+        height: 350px;
+    }
+    .container #result input {
+        margin-top: 20px;
+        width: 290px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        outline: none;
+    }
+    .container #resuult_box {
+        font-size: 20px;
+    }
+    .key_board {
+        text-align: center;
+    }
+    .key_board input {
+        margin: 5px;
+    }
+    .row_one input {
+        width: 50px;
+        height: 50px;
+    }
+    .row_two input {
+        width: 50px;
+        height: 50px;
+    }
+
+    .row_three input {
+        width: 50px;
+        height: 50px;
+    }
+
+    .row_four input {
+        width: 50px;
+        height: 50px;
+    }
+}
