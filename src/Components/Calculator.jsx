@@ -23,8 +23,8 @@ function Calculator() {
                                 <input value={'4'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
                                 <input value={'5'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
                                 <input value={'6'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
-                                <input value={'X'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
-                                <input value={':'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
+                                <input value={'*'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
+                                <input value={'/'} type='button' onClick={(e) => setDatas(datas + e.target.value)} />
 
 
                             </div>
